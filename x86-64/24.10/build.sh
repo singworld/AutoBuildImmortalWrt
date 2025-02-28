@@ -40,12 +40,15 @@ PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
+PACKAGES="$PACKAGES cfdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 自定义
 PACKAGES="$PACKAGES luci-app-sqm"
 PACKAGES="$PACKAGES luci-app-ttyd"
 PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-app-netspeedtest"
+
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then

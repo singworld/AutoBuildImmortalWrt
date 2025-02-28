@@ -47,7 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-app-sqm"
 PACKAGES="$PACKAGES luci-app-ttyd"
 PACKAGES="$PACKAGES luci-app-upnp"
-PACKAGES="$PACKAGES luci-app-netspeedtest"
+PACKAGES="$PACKAGES iperf3"
 
 
 # 判断是否需要编译 Docker 插件
